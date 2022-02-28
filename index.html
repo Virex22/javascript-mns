@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Duck hunt</title>
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+</head>
+<body>
+    <div id="popup">
+        <p>Bienvenue sur le Duck Hunt de REMY Vincent :)</p>
+        <button id="button-play">Jouer</button>
+    </div>
+    <div id="game-container">
+        <img src="img/bg.jpg" id="bg" alt="background">
+        <img src="img/cannard.png" id="duck" alt="cannard" width="100" height="100">
+    </div>
+    <div id="game-bottom">
+        <div class="bottom-part timer-part">
+        <div class="timer-container">
+         <p>Temps réstant : 
+            <span class="info info-time">152</span>s
+         </p>
+        </div>
+        </div>
+        <div class="bottom-part duck-score-parts">
+         <p>Score canard : 
+            <span class="info info-duck-point">2</span>
+         </p>
+        </div>
+        <div class="bottom-part hunter-part">
+         <p>Score chasseur : 
+            <span class="info info-hunter-point">2</span>
+         </p></div>
+    </div>
+    <div id="stop-game"><p>Stop</p> 
+    </div>
+</body>
+</html>
